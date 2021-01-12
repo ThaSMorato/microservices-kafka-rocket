@@ -1,0 +1,15 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "dev" : "nodemon recebepedido/index.js",
+    "pagamento" : "nodemon pagamento/index.js",
+    "faturamento" : "nodemon faturamento/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "nodemon": "^2.0.7"
+  }
+}
